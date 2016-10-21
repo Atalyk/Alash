@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12665157D015FAC27247D9FB /* Pods_Alash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80E1F51DB71D93A9CCFB55DC /* Pods_Alash.framework */; };
+		8426D4A91D8FC2CD00FFFFD0 /* PersonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8426D4A81D8FC2CD00FFFFD0 /* PersonViewController.swift */; };
+		843610AD1D90BA3300DDEEDB /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 843610AC1D90BA3300DDEEDB /* Podfile */; };
 		845F758A1D8F17D1007DBE56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F75891D8F17D1007DBE56 /* AppDelegate.swift */; };
-		845F758C1D8F17D1007DBE56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F758B1D8F17D1007DBE56 /* ViewController.swift */; };
 		845F758F1D8F17D1007DBE56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845F758D1D8F17D1007DBE56 /* Main.storyboard */; };
 		845F75911D8F17D1007DBE56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845F75901D8F17D1007DBE56 /* Assets.xcassets */; };
 		845F75941D8F17D1007DBE56 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845F75921D8F17D1007DBE56 /* LaunchScreen.storyboard */; };
 		845F759F1D8F17D2007DBE56 /* AlashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F759E1D8F17D2007DBE56 /* AlashTests.swift */; };
 		845F75AA1D8F17D2007DBE56 /* AlashUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F75A91D8F17D2007DBE56 /* AlashUITests.swift */; };
+		845F75B81D8F17E2007DBE56 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F75B71D8F17E2007DBE56 /* MainViewController.swift */; };
+		845F75BA1D8F19C0007DBE56 /* PersonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845F75B91D8F19C0007DBE56 /* PersonTableViewCell.swift */; };
+		848F51921D91ADC8005FE577 /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F51911D91ADC8005FE577 /* QuizViewController.swift */; };
+		848F51941D91C00A005FE577 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 848F51931D91C00A005FE577 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1C9F688600C1364EAF127F8F /* Pods-Alash.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alash.release.xcconfig"; path = "Pods/Target Support Files/Pods-Alash/Pods-Alash.release.xcconfig"; sourceTree = "<group>"; };
+		80E1F51DB71D93A9CCFB55DC /* Pods_Alash.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Alash.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8426D4A81D8FC2CD00FFFFD0 /* PersonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonViewController.swift; sourceTree = "<group>"; };
+		843610AC1D90BA3300DDEEDB /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		845F75861D8F17D1007DBE56 /* Alash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Alash.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		845F75891D8F17D1007DBE56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		845F758B1D8F17D1007DBE56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		845F758E1D8F17D1007DBE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		845F75901D8F17D1007DBE56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		845F75931D8F17D1007DBE56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,11 @@
 		845F75A51D8F17D2007DBE56 /* AlashUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlashUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845F75A91D8F17D2007DBE56 /* AlashUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlashUITests.swift; sourceTree = "<group>"; };
 		845F75AB1D8F17D2007DBE56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845F75B71D8F17E2007DBE56 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		845F75B91D8F19C0007DBE56 /* PersonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonTableViewCell.swift; sourceTree = "<group>"; };
+		848F51911D91ADC8005FE577 /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		848F51931D91C00A005FE577 /* AboutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		F4465C00D54834CB0EF159EC /* Pods-Alash.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Alash.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Alash/Pods-Alash.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12665157D015FAC27247D9FB /* Pods_Alash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,13 +89,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14B3F26671CCAB6B04102CF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				80E1F51DB71D93A9CCFB55DC /* Pods_Alash.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		845F757D1D8F17D1007DBE56 = {
 			isa = PBXGroup;
 			children = (
+				843610AC1D90BA3300DDEEDB /* Podfile */,
 				845F75881D8F17D1007DBE56 /* Alash */,
 				845F759D1D8F17D2007DBE56 /* AlashTests */,
 				845F75A81D8F17D2007DBE56 /* AlashUITests */,
 				845F75871D8F17D1007DBE56 /* Products */,
+				8627B95DBB48788DD177913E /* Pods */,
+				14B3F26671CCAB6B04102CF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -98,11 +124,15 @@
 			isa = PBXGroup;
 			children = (
 				845F75891D8F17D1007DBE56 /* AppDelegate.swift */,
-				845F758B1D8F17D1007DBE56 /* ViewController.swift */,
 				845F758D1D8F17D1007DBE56 /* Main.storyboard */,
 				845F75901D8F17D1007DBE56 /* Assets.xcassets */,
 				845F75921D8F17D1007DBE56 /* LaunchScreen.storyboard */,
 				845F75951D8F17D1007DBE56 /* Info.plist */,
+				845F75B71D8F17E2007DBE56 /* MainViewController.swift */,
+				845F75B91D8F19C0007DBE56 /* PersonTableViewCell.swift */,
+				8426D4A81D8FC2CD00FFFFD0 /* PersonViewController.swift */,
+				848F51911D91ADC8005FE577 /* QuizViewController.swift */,
+				848F51931D91C00A005FE577 /* AboutViewController.swift */,
 			);
 			path = Alash;
 			sourceTree = "<group>";
@@ -125,6 +155,15 @@
 			path = AlashUITests;
 			sourceTree = "<group>";
 		};
+		8627B95DBB48788DD177913E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F4465C00D54834CB0EF159EC /* Pods-Alash.debug.xcconfig */,
+				1C9F688600C1364EAF127F8F /* Pods-Alash.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 845F75AE1D8F17D2007DBE56 /* Build configuration list for PBXNativeTarget "Alash" */;
 			buildPhases = (
+				8AF47017327D36195B5E226C /* [CP] Check Pods Manifest.lock */,
 				845F75821D8F17D1007DBE56 /* Sources */,
 				845F75831D8F17D1007DBE56 /* Frameworks */,
 				845F75841D8F17D1007DBE56 /* Resources */,
+				08DE1F6117D693147F270395 /* [CP] Embed Pods Frameworks */,
+				AFBD35BB9D6C859CC214FBA4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -193,6 +235,7 @@
 				TargetAttributes = {
 					845F75851D8F17D1007DBE56 = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = AB65P3C5XF;
 					};
 					845F75991D8F17D2007DBE56 = {
 						CreatedOnToolsVersion = 7.3.1;
@@ -231,6 +274,7 @@
 			files = (
 				845F75941D8F17D1007DBE56 /* LaunchScreen.storyboard in Resources */,
 				845F75911D8F17D1007DBE56 /* Assets.xcassets in Resources */,
+				843610AD1D90BA3300DDEEDB /* Podfile in Resources */,
 				845F758F1D8F17D1007DBE56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -251,13 +295,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		08DE1F6117D693147F270395 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alash/Pods-Alash-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AF47017327D36195B5E226C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AFBD35BB9D6C859CC214FBA4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Alash/Pods-Alash-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		845F75821D8F17D1007DBE56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				845F758C1D8F17D1007DBE56 /* ViewController.swift in Sources */,
+				848F51941D91C00A005FE577 /* AboutViewController.swift in Sources */,
+				845F75BA1D8F19C0007DBE56 /* PersonTableViewCell.swift in Sources */,
+				848F51921D91ADC8005FE577 /* QuizViewController.swift in Sources */,
+				845F75B81D8F17E2007DBE56 /* MainViewController.swift in Sources */,
 				845F758A1D8F17D1007DBE56 /* AppDelegate.swift in Sources */,
+				8426D4A91D8FC2CD00FFFFD0 /* PersonViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -397,23 +493,33 @@
 		};
 		845F75AF1D8F17D2007DBE56 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4465C00D54834CB0EF159EC /* Pods-Alash.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Alash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.Alash;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aatalyk.alash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		845F75B01D8F17D2007DBE56 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C9F688600C1364EAF127F8F /* Pods-Alash.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = Alash/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.calc.aakash.Alash;
+				PRODUCT_BUNDLE_IDENTIFIER = com.aatalyk.alash;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -482,6 +588,7 @@
 				845F75B01D8F17D2007DBE56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845F75B11D8F17D2007DBE56 /* Build configuration list for PBXNativeTarget "AlashTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +597,7 @@
 				845F75B31D8F17D2007DBE56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		845F75B41D8F17D2007DBE56 /* Build configuration list for PBXNativeTarget "AlashUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +606,7 @@
 				845F75B61D8F17D2007DBE56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
